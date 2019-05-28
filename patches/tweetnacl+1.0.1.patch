@@ -1,0 +1,13 @@
+diff --git a/node_modules/tweetnacl/nacl-fast.js b/node_modules/tweetnacl/nacl-fast.js
+index 34b82e7..f52945e 100644
+--- a/node_modules/tweetnacl/nacl-fast.js
++++ b/node_modules/tweetnacl/nacl-fast.js
+@@ -2086,7 +2086,7 @@ var crypto_secretbox_KEYBYTES = 32,
+     crypto_box_BOXZEROBYTES = crypto_secretbox_BOXZEROBYTES,
+     crypto_sign_BYTES = 64,
+     crypto_sign_PUBLICKEYBYTES = 32,
+-    crypto_sign_SECRETKEYBYTES = 64,
++    crypto_sign_SECRETKEYBYTES = 32,
+     crypto_sign_SEEDBYTES = 32,
+     crypto_hash_BYTES = 64;
+ 
