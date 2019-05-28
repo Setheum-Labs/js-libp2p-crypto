@@ -25,7 +25,8 @@
     "release-minor": "aegir release --type minor",
     "release-major": "aegir release --type major",
     "coverage": "aegir coverage --ignore src/keys/keys.proto.js",
-    "size": "bundlesize -f dist/index.min.js -s 139kB"
+    "size": "bundlesize -f dist/index.min.js -s 139kB",
+    "postinstall": "patch-package"
   },
   "keywords": [
     "IPFS",
