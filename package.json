@@ -12,7 +12,8 @@
   },
   "files": [
     "src",
-    "dist"
+    "dist",
+    "patches"
   ],
   "scripts": {
     "lint": "aegir lint",
